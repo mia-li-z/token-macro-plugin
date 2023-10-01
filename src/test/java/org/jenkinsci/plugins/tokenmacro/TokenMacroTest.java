@@ -26,6 +26,7 @@ public class TokenMacroTest {
     @Rule
     public final JenkinsRule j = new JenkinsRule();
 
+    // test
     @Test
     public void testBasics() throws Exception {
         FreeStyleProject p = j.createFreeStyleProject("foo");
