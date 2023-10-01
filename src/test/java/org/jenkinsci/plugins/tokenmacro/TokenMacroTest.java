@@ -26,6 +26,8 @@ public class TokenMacroTest {
     @Rule
     public final JenkinsRule j = new JenkinsRule();
 
+    //test
+
     // test
     @Test
     public void testBasics() throws Exception {
