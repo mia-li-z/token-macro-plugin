@@ -23,7 +23,6 @@ import static junit.framework.TestCase.assertEquals;
  */
 public class TokenMacroTest {
     private StreamTaskListener listener;
-    //test
     @Rule
     public final JenkinsRule j = new JenkinsRule();
 
