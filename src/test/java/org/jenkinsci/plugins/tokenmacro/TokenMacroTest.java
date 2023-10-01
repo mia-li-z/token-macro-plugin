@@ -38,7 +38,7 @@ public class TokenMacroTest {
 
         assertEquals("{abc=[def, ghi], jkl=[true]}",TokenMacro.expand(b,listener,"${TEST,abc=\"def\",abc=\"ghi\",jkl=true}"));
     }
-
+//test
     @Test
     public void testLength() throws Exception {
         FreeStyleProject p = j.createFreeStyleProject("foo");
